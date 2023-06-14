@@ -1,0 +1,52 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/aria": [
+      "default",
+      {
+        "aria-required-children": "off",
+        "aria-progressbar-name": "off"
+      }
+    ],
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off",
+        "button-name": "off"
+      }
+    ],
+    "disown-opener": "off",
+    "no-inline-styles": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "-ms-text-size-adjust",
+          "-moz-user-select",
+          "@-ms-viewport"
+        ]
+      }
+    ],
+    "axe/structure": [
+      "default",
+      {
+        "listitem": "off"
+      }
+    ]
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_chr <= 112",
+    "not and_ff <= 110",
+    "not chrome <= 113",
+    "not edge <= 113",
+    "not firefox <= 112",
+    "not ios_saf <= 16.4",
+    "not opera <= 98",
+    "not safari <= 16.4",
+    "not samsung <= 20"
+  ]
+}
