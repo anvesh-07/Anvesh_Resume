@@ -6,19 +6,15 @@ import { ProfileService } from '../profile.service';
   templateUrl: './about.component.html',
   styleUrls: ['./about.component.scss']
 })
-export class aboutComponent implements OnInit {
+export class AboutComponent implements OnInit {
 
+  about1: any;
+  about2: any;
 
-  ngOnInit(): void {
-    throw new Error('Method not implemented.');
-  }
-  // about1: any
-  // about2: any
-  // constructor(private profileService: ProfileService) { }
+  constructor(private profileService: ProfileService) { }
   
-
-  // ngOnInit() {
-  //   this.about1 = this.profileService.about
-  //   this.about2 = this.profileService.about2
-  // }
+  ngOnInit() {
+    this.about1 = this.profileService.about;
+    this.about2 = this.profileService.about2;
+  }
 }

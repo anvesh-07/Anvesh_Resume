@@ -6,6 +6,8 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ProfileService {
+  about: any;
+  about2: any;
 
   constructor(private http: HttpClient) { }
   // acc: any=[

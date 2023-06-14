@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { aboutComponent } from './profile/about/about.component';
+import { AboutComponent } from './profile/about/about.component';
 import { ContactComponent } from './profile/contact/contact.component';
 import { EducationComponent } from './profile/education/education.component';
 import { ExperienceComponent } from './profile/experience/experience.component';
@@ -26,7 +26,7 @@ import { ProgressSpinnerModule } from 'primeng/progressspinner';
 @NgModule({
   declarations: [
     AppComponent,
-    aboutComponent,
+    AboutComponent,
     ContactComponent,
     EducationComponent,
     ExperienceComponent,
