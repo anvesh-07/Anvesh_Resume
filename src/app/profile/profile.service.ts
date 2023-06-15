@@ -54,7 +54,7 @@ export class ProfileService {
       // livedemo: 'https://mehulk05.github.io/MyShop/#/',
       githurl: 'https://drive.google.com/file/d/1wafv2mGQSIc-HXsPZMMy-5D4Arp4TDXc/view?usp=sharing',
       // mediumlink: 'https://itnext.io/read-data-from-google-spreadsheet-in-angular-209ee74b6cb4',
-      imgUrl: 'assets/images/solar-energy-irrigation-model.jpg',
+      imgUrl: 'https://firebasestorage.googleapis.com/v0/b/settipallianveshreddy.appspot.com/o/solar-energy-irrigation-model.jpg?alt=media&token=19703e19-3991-4f75-9978-a33d571fd112',
       tech: 'Internet of Things , Aurdino'
     },
 
@@ -65,7 +65,7 @@ export class ProfileService {
       // livedemo: 'https://mehulk05.github.io/Blogapp-using-MERN/#/',
       githurl: 'https://docs.google.com/document/d/1hZMhvlJqSKh8sIPUbiZpZfF9RKGCKhgX/edit?usp=sharing&ouid=104581405272775545794&rtpof=true&sd=true',
       // mediumlink: 'https://itnext.io/blog-app-using-mern-stack-b0b4d69d7ea1',
-      imgUrl: 'assets/images/fire.jpeg',
+      imgUrl: 'https://firebasestorage.googleapis.com/v0/b/settipallianveshreddy.appspot.com/o/fire.jpeg?alt=media&token=73b6ed8a-18b8-4a54-8b10-d8b88d9f963f',
       tech: 'Digital logic design'
     },
 
@@ -77,7 +77,7 @@ export class ProfileService {
       // livedemo: 'https://mehulk05.github.io/Blog-using-mean/#/',
       githurl: '',
       // mediumlink: 'https://itnext.io/crud-operation-using-mean-stack-7dfa2f51ec8c',
-      imgUrl: 'assets/images/WhatsApp Image 2023-05-31 at 16.21.48.jpg',
+      imgUrl: 'https://firebasestorage.googleapis.com/v0/b/settipallianveshreddy.appspot.com/o/WhatsApp%20Image%202023-05-31%20at%2016.21.48.jpg?alt=media&token=868502d5-da89-4816-a121-d92b15b1a5fb',
       tech: 'Aurdino, Internet of Things'
     },
     {
@@ -87,7 +87,7 @@ export class ProfileService {
       // livedemo: 'https://mehulk05.github.io/Blog-using-mean/#/',
       githurl: 'https://settipallianveshreddy.web.app/',
       // mediumlink: 'https://itnext.io/crud-operation-using-mean-stack-7dfa2f51ec8c',
-      imgUrl: 'assets/images/WhatsApp Image 2023-05-31 at 16.21.48.jpg',
+      imgUrl: 'https://firebasestorage.googleapis.com/v0/b/settipallianveshreddy.appspot.com/o/Screenshot%202023-06-15%20154621.png?alt=media&token=602679e8-71c6-4733-bcd8-b19b2bf7d89d',
       tech: 'Angular'
     }
 

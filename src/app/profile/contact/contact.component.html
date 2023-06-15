@@ -22,7 +22,6 @@
                                                         </span>
                                                         <input class="form-control" type="text" name="name"
                                                             placeholder="Name" [(ngModel)]="model.name" #name="ngModel"
-                                                           
                                                             required />
                                                     </div>
                                                 </div>
@@ -35,8 +34,7 @@
                                                         </span>
                                                         <input class="form-control" type="text" name="subject"
                                                             placeholder="Subject" [(ngModel)]="model.subject"
-                                                            #subject="ngModel"
-                                                            required />
+                                                            #subject="ngModel" required />
                                                     </div>
                                                 </div>
                                             </div>
@@ -48,9 +46,7 @@
                                                         </span>
                                                         <input class="form-control" type="text" name="email"
                                                             placeholder="E-mail" [(ngModel)]="model.email"
-                                                            #email="ngModel"
-                                                            pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$"
-                                                            required />
+                                                            #email="ngModel" required />
                                                     </div>
                                                 </div>
                                             </div>
@@ -59,14 +55,14 @@
                                                     <div class="form-group">
                                                         <textarea class="form-control" name="message"
                                                             placeholder="Your Message" [(ngModel)]="model.message"
-                                                            #message="ngModel"
-                                                            required></textarea>
+                                                            #message="ngModel" required></textarea>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="row">
                                                 <div class="col">
-                                                    <button class="btn btn-primary" type="submit" (click)="sendEmail()">Send</button>
+                                                    <button class="btn btn-primary" type="submit"
+                                                        (click)="sendEmail()">Send</button>
                                                 </div>
                                             </div>
                                         </form>
@@ -96,4 +92,3 @@
         </div>
     </div>
 </div>
-<!-- </div> -->
