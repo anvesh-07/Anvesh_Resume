@@ -36,19 +36,11 @@ export class ContactComponent {
     const email = 'settipallianveshreddy2002@gmail.com';
     window.location.href = 'mailto:' + email;
   }
-  onSubmit() {
-    this.http.post('/api/send-email', this.model).subscribe(
-      () => {
-        console.log('Email sent successfully');
-        // Optionally, display a success message to the user
-      },
-      (error) => {
-        console.error('Error sending email:', error);
-        // Optionally, display an error message to the user
-      }
-    );
-  }
-
+  
+  // sendmail(): void {
+  //   const email = 'settipallianveshreddy2002@gmail.com';
+  //   window.location.href = 'mailto:' + email;
+  // }
   // constructor(private router: Router) {}
   redirectToContactPage() {
     window.location.href = 'https://www.justpic.in/contact/AR926';
