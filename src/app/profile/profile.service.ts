@@ -82,7 +82,7 @@ export class ProfileService {
     },
     {
       id: 4,
-      title: 'Resume',
+      title: 'Angular Folio',
       desc: 'Developed a visually appealing portfolio using Angular, showcasing my projects and skills. Implemented responsive design with HTML, CSS, and JavaScript to create a user-friendly experience and highlight my development expertise.',
       // livedemo: 'https://mehulk05.github.io/Blog-using-mean/#/',
       githurl: 'https://settipallianveshreddy.web.app/',
