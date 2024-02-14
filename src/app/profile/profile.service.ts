@@ -10,42 +10,7 @@ export class ProfileService {
   about2: any;
 
   constructor(private http: HttpClient) { }
-  // acc: any=[
-  //   {
-  //     id: 1,
-  //     title: 'Solar water Irrigation',
-  //     desc: 'Solar water irrigation system utilizes solar energy to power an intelligent irrigation system that adjusts water flow according to soil moisture levels, ensuring optimal water usage and efficient agricultural irrigation practices.',
-  //     // livedemo: 'https://mehulk05.github.io/MyShop/#/',
-  //     // githurl: 'https://github.com/mehulk05/MyShop',
-  //     // mediumlink: 'https://itnext.io/read-data-from-google-spreadsheet-in-angular-209ee74b6cb4',
-  //     imgUrl: 'assets/images/solar-energy-irrigation-model.jpg',
-  //     tech: 'Internet of Things , Aurdino'
-  //   },
 
-  //   {
-  //     id: 2,
-  //     title: 'Fire Sensor Using Transistor',
-  //     desc: 'Fire Sensor using Transistor is an innovative project designed to detect fire hazards through a transistor-based sensor, which instantly activates a loud buzzer to alert individuals and prompt immediate action.',
-  //     // livedemo: 'https://mehulk05.github.io/Blogapp-using-MERN/#/',
-  //     // githurl: 'https://github.com/mehulk05/Blogapp-using-MERN',
-  //     // mediumlink: 'https://itnext.io/blog-app-using-mern-stack-b0b4d69d7ea1',
-  //     imgUrl: 'assets/images/fire.jpeg',
-  //     tech: 'Digital logic design'
-  //   },
-
-
-  //   {
-  //     id: 3,
-  //     title: 'Just Smart Power Box',
-  //     desc: 'The smart power box, with the JustPic app, efficiently regulates electric current. Users scan and pay for electricity usage based on predefined intervals, ensuring accurate billing and efficient energy management.',
-  //     // livedemo: 'https://mehulk05.github.io/Blog-using-mean/#/',
-  //     // githurl: 'https://github.com/mehulk05/Blog-using-mean',
-  //     // mediumlink: 'https://itnext.io/crud-operation-using-mean-stack-7dfa2f51ec8c',
-  //     imgUrl: 'assets/images/WhatsApp Image 2023-05-31 at 16.21.48.jpg',
-  //     tech: 'Aurdino, Internet of Things'
-  //   },
-
-  // ]
   projects: any = [
     {
       id: 1,
